@@ -9,7 +9,7 @@
     "lint": "eslint --fix --ext .js,.jsx ./src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production --env=production",
-    "package": "babel src --out-dir dist --copy-files",
+    "package": "RMDIR /Q/S dist && babel src --out-dir dist --copy-files --ignore src/index.jsx --no-copy-ignored",
     "prepublishOnly": "npm run package"
   },
   "repository": {
