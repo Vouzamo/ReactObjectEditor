@@ -1,5 +1,7 @@
 .nyc_output/
 coverage/
-node_modules/
 .vscode/
 .vs/
+node_modules/
+build/
+src/

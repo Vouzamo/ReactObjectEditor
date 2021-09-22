@@ -19,7 +19,7 @@
     ],
     "rules": {
         "array-bracket-spacing": [
-            2,
+            1,
             "always",
             {
                 "objectsInArrays": true,
@@ -45,14 +45,14 @@
             "always"
         ],
         "brace-style": [
-            2,
+            1,
             "allman",
             {
                 "allowSingleLine": true
             }
         ],
         "camelcase": 2,
-        "comma-dangle": 2,
+        "comma-dangle": 1,
         "comma-spacing": [
             2,
             {
@@ -71,7 +71,7 @@
             "tab"
         ],
         "key-spacing": [
-            2,
+            1,
             {
                 "singleLine": {
                     "beforeColon": false,
@@ -84,7 +84,7 @@
                 }
             }
         ],
-        "keyword-spacing": 2,
+        "keyword-spacing": 1,
         "linebreak-style": 0,
         "lines-around-comment": [
             2,
@@ -96,7 +96,7 @@
             }
         ],
         "max-len": [
-            2,
+            1,
             94,
             {
                 "tabWidth": 2,
@@ -110,13 +110,13 @@
         "newline-after-var": 2,
         "newline-before-return": 2,
         "newline-per-chained-call": 2,
-        "no-alert": 2,
+        "no-alert": 1,
         "no-caller": 2,
         "no-case-declarations": 2,
         "no-catch-shadow": 2,
         "no-class-assign": 2,
         "no-confusing-arrow": 2,
-        "no-console": 2,
+        "no-console": 1,
         "no-const-assign": 2,
         "no-debugger": 2,
         "no-dupe-args": 2,
@@ -215,6 +215,7 @@
                 "allowMultiplePropertiesPerLine": true
             }
         ],
+        "padded-blocks": 1,
         "prefer-const": 2,
         "prefer-rest-params": 2,
         "prefer-spread": 2,
@@ -224,7 +225,7 @@
             "double"
         ],
         "semi": [
-            2,
+            1,
             "always"
         ],
         "semi-spacing": 2,
