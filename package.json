@@ -1,0 +1,26 @@
+{
+  "name": "react-object-editor",
+  "version": "1.0.0",
+  "description": "Higher order component(s) for editing an objects properties, implemented using React with Material UI.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vouzamo/ReactObjectEditor.git"
+  },
+  "keywords": [
+    "hoc",
+    "object",
+    "properties",
+    "material",
+    "mui"
+  ],
+  "author": "John Askew",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Vouzamo/ReactObjectEditor/issues"
+  },
+  "homepage": "https://github.com/Vouzamo/ReactObjectEditor#readme"
+}
