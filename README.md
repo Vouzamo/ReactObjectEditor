@@ -1,4 +1,5 @@
-# ReactObjectEditor
+# React Object Editor (MUI)
+### react-object-editor-mui
 
 Higher order component(s) to facilitate editing an objects properties, implemented in React using Material UI.
 
