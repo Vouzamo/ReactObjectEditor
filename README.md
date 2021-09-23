@@ -6,6 +6,7 @@ Higher order component(s) to facilitate editing an objects properties, implement
 
 Import components and use as shown below:
 
+```javascript
     import * as React from 'react';
     import { JsonPropertyEditor, ObjectEditor } from 'react-object-editor-mui';
     
@@ -16,6 +17,7 @@ Import components and use as shown below:
             <ObjectEditor source={state} onChange={setState} PropertyEditor={JsonPropertyEditor} />
         );
     }
+```
 
 You'll want to provide your own PropertyEditor which can be implemented as below:
 
