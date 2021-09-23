@@ -3,6 +3,12 @@
 
 Higher order component(s) to facilitate editing an objects properties, implemented in React using Material UI.
 
+## Local Demo
+
+Just run the following commands to launch a working example locally:
+- `npm install`
+- `npm run start`
+
 ## Example Usage
 
 Import components and use as shown below:
