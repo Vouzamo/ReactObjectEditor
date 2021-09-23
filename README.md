@@ -28,14 +28,14 @@ You'll want to provide your own PropertyEditor which can be implemented as below
         
         const onSave = () => {
             const value = JSON.parse(state);
-		        onUpdate(propertyKey, value);
+            onUpdate(propertyKey, value);
         }
         
         return (
             <>
-			          <input type='textarea' name='json' value={state} onChange={(e) => setState(e.target.value)} />
-			          <button type='button' onClick={onSave}>Save</button>
-		        </>
+              <input type='textarea' name='json' value={state} onChange={(e) => setState(e.target.value)} />
+              <button type='button' onClick={onSave}>Save</button>
+            </>
         );
     }
 
