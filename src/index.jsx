@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import CssBaseline from '@mui/material/CssBaseline';
 
+import JsonPropertyEditor from './JsonPropertyEditor';
 import ObjectEditor from "./ObjectEditor";
 
 const source = {
@@ -16,25 +17,6 @@ const source = {
 		"bar",
 	],
 	property5 : 3.14159,
-};
-
-const JsonPropertyEditor = ({ propertyKey, property, onUpdate }) =>
-{
-	const [ state, setState ] = React.useState(JSON.stringify(property));
-
-	const onSave = () =>
-	{
-		const value = JSON.parse(state);
-
-		onUpdate(propertyKey, value);
-	};
-
-	return (
-		<>
-			<input type='textarea' name='json' value={state} onChange={(e) => setState(e.target.value)} />
-			<button type='button' onClick={onSave}>Save</button>
-		</>
-	);
 };
 
 const MyEditor = () =>

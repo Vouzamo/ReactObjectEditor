@@ -1,3 +1,4 @@
+import JsonPropertyEditor from './JsonPropertyEditor';
 import ObjectEditor from './ObjectEditor';
 
-export default ObjectEditor;
+export { JsonPropertyEditor, ObjectEditor };
