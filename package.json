@@ -1,6 +1,6 @@
 {
   "name": "react-object-editor-mui",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Higher order component(s) for editing an objects properties, implemented using React with Material UI.",
   "main": "dist/index.js",
   "module": "dist/index.js",
